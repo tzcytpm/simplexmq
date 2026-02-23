@@ -8,7 +8,7 @@ import Simplex.Messaging.Protocol (XFTPServerWithAuth)
 
 defaultXFTPServers :: NonEmpty XFTPServerWithAuth
 defaultXFTPServers =
-  [ "xftp://oJH7jdmfSr4C9fC8ONYIFNabnP_VatrHvjxq8nNXtMc=@xftp01.privateline.io",
+  [ "xftp://oJH7jdmfSr4C9fC8ONYIFNabnP_VatrHvjxq8nNXtMc=@xftp01.privateline.io:8443",
     "xftp://oJH7jdmfSr4C9fC8ONYIFNabnP_VatrHvjxq8nNXtMc=@xftp02.privateline.io",
     "xftp://oJH7jdmfSr4C9fC8ONYIFNabnP_VatrHvjxq8nNXtMc=@xftp03.privateline.io",
     "xftp://oJH7jdmfSr4C9fC8ONYIFNabnP_VatrHvjxq8nNXtMc=@xftp04.privateline.io",
